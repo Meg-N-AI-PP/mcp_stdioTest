@@ -29,7 +29,7 @@ static string GetCode([Description("Get the code of a project, the project param
 var getCodeFunction = AIFunctionFactory.Create(
     GetCode,
     name: "GetProjectCode",
-    description: "Return the code of a project by its name"
+    description: "Return the code of a project by its names"
 );
 
 AIAgent agent = new AzureOpenAIClient(
